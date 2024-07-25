@@ -13,14 +13,7 @@ body{
 
 div{
 	background-color: green;
-	padding: 25px
-}
-
-div:first-child{
-	background-color: black;
-	grid-column: 1;
-	grid-template-columns: ;
-	grid-template-rows: 800px;
-
-
+	padding: 25px;
+	grid-template-columns: 80px 200px auto 40px;
+	grid-template-rows: 80px 200px;	
 }
