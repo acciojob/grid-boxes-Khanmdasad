@@ -14,8 +14,12 @@ body{
 }
 
 div{
+	font-size: 20px;
+	color: white;
 	background-color: green;
 	padding: 25px;
+	display: grid;
+	grid-column: 4;
 }
 
 div:nth-child(1){
