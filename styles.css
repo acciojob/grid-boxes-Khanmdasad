@@ -1,1 +1,26 @@
 /*  your css code here. If applicable */
+body{
+	padding: 0;
+	marign: 0;
+	box-sizing: border-box
+}
+
+#grid{
+	display: grid;
+	gap: 5px;
+	
+}
+
+div{
+	background-color: green;
+	padding: 25px
+}
+
+div:first-child{
+	background-color: black;
+	grid-column: 1;
+	grid-template-columns: ;
+	grid-template-rows: 800px;
+
+
+}
